@@ -1,0 +1,108 @@
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+
+
+body {
+  background-color: lightsteelblue;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(45deg, transparent 24px, rgba(0, 0, 0, 0.03) 25px, rgba(0, 0, 0, 0.03) 75px, transparent 76px),
+    linear-gradient(45deg, transparent 24px, rgba(0, 0, 0, 0.03) 25px, rgba(0, 0, 0, 0.03) 75px, transparent 76px),
+    linear-gradient(to right, #ccc 1px, transparent 1px),
+    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 100% 1px, 1px 100%;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+
+#canvas {
+  display: block;
+  margin: auto;
+  border: red 5px solid;
+
+}
+
+.dot {
+  stroke: black;
+  fill: transparent;
+  stroke-width: 2;
+}
+
+line {
+  stroke: black;
+  stroke-width: 5;
+}
+
+
+
+
+#erase {
+  background-color: #f5f5f5;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+  margin-right: 50px;
+}
+
+#erase:hover {
+  background-color: #e0e0e0;
+  color: #222;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+#pen {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.2s, color 0.2s;
+  margin-right: 50px;
+}
+
+#pen:hover {
+  background-color: #0056b3;
+}
+
+
+#color {
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
