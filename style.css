@@ -96,8 +96,9 @@ line {
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
-  width: 90px;
-  height: 40px;
+  width: 94px;
+  height: 42px;
+  padding: 0px;
 }
 
 .button-container {
